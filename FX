@@ -1,0 +1,10 @@
+local UID = "774422562"
+local Name = "ImNotGood"
+local Sig = "idk"
+
+if InputUID == UID and InputName == Name and InputSig == Sig then
+Door:Trigger(Open)
+else
+Door:Trigger(Deny)
+end
+end
